@@ -3,7 +3,7 @@ import { useContext } from "react";
 import { AuthenticateContext } from "./AuthenticateContext";
 
 const LoginForm = () => {
-  const { authenticate, login } = useContext(AuthenticateContext);
+  const { login } = useContext(AuthenticateContext);
   const navigate = useNavigate();
 
   const handleSubmit = async (e) => {
