@@ -1,0 +1,96 @@
+.bigassheader {
+    font-size: 30px;
+    font-weight: 700;
+    text-align: center;
+    margin: 20px 0;
+}
+
+.bigassheader{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+
+.student{
+   border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 10px 0;
+    background-color: #fff;
+    box-shadow: 0 0 10px #ccc;
+    transition: all 0.3s ease-in-out;
+}
+.student:hover{
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+    box-shadow: 0 0 10px #000;
+}
+
+
+.create-btn{
+    width: 100%;
+    background-color: #d7d7d7;
+    border: 1px solid #010000;
+    color: rgb(3, 3, 3);
+    padding: 10px 20px;
+    text-align: center;
+    font-size: 16px;
+    margin: 10px 0;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: all 0.3s ease-in-out;
+    
+}
+
+.create-btn:hover{
+    background-color: #fff;
+    transition: all 0.3s ease-in-out;
+}
+
+.delete-btn{
+    width: 100%;
+    background-color: #ab2c2c;
+    border: 1px solid #010000;
+    color: rgb(253, 253, 253);
+    padding: 10px 20px;
+    text-align: center;
+    font-size: 16px;
+    margin: 10px 0;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: all 0.3s ease-in-out;
+    
+}
+
+.delete-btn:hover{
+    background-color: #ec1313;
+    transition: all 0.3s ease-in-out;
+}
+
+
+/* CSS for the student table */
+
+
+.table-student {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.table-student th,
+.table-student td {
+    padding: 10px;
+    text-align: left;
+    border-bottom: 1px solid #ccc;
+}
+
+.table-student th {
+    background-color: #f2f2f2;
+}
+
+.table-student tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+
