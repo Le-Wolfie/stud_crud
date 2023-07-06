@@ -1,6 +1,6 @@
 import { useNavigate } from "react-router-dom";
 
-const StudentForm = () => {
+const CreateStudent = () => {
   const navigate = useNavigate();
 
   const handleSubmit = (e) => {
@@ -51,4 +51,4 @@ const StudentForm = () => {
   );
 };
 
-export default StudentForm;
+export default CreateStudent;

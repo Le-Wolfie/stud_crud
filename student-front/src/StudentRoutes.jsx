@@ -1,6 +1,6 @@
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import App from "./App";
-import StudentForm from "./StudentForm";
+import CreateStudent from "./CreateStudent";
 import EditStudent from "./EditStudent";
 import LoginForm from "./LoginForm";
 import ProtectedComponent from "./ProtectedComponent";
@@ -24,7 +24,7 @@ const StudentRoutes = () => {
           path='/create-student'
           element={
             <ProtectedComponent>
-              <StudentForm />
+              <CreateStudent />
             </ProtectedComponent>
           }
         />

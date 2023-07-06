@@ -1,9 +1,9 @@
 import { Link } from "react-router-dom";
 import { useState, useEffect } from "react";
 import Student from "./Student";
-import "./index.css";
-import "./student.css";
-import "./student-form.css";
+import "./css/index.css";
+import "./css/student-form.css";
+import "./css/student.css";
 import { useNavigate } from "react-router-dom";
 
 function App() {
